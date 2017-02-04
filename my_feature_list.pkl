@@ -41,8 +41,4 @@ aS'shared_receipt_with_poi'
 p20
 aS'stock_to_payments_ratio'
 p21
-aS'poi_to_total_emails_sent_ratio'
-p22
-aS'poi_to_total_emails_received_ratio'
-p23
 a.

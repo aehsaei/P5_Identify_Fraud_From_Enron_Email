@@ -654,10 +654,10 @@ def main():
     features = scale_features(features)
 
     ### Create a list of classifiers
-    #classifiers_list = create_classifiers_list()
+    classifiers_list = create_classifiers_list()
 
     ### Test and score each classifier in the classifiers list
-    #test_classifiers(classifiers_list, my_dataset, features_list)
+    test_classifiers(classifiers_list, my_dataset, features_list)
 
     ### Test and rank each feature in the features list
     test_features(AdaBoostClassifier(), features, labels, my_dataset, features_list)
